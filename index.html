@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            color: #023047;
+            margin: 20;
+            padding: 0;
+            background-color: #FB8500;
+        }
+
+        
+
+        
+
+        #profile-section {
+            overflow: hidden;
+        }
+        .skill-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .lan-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content:space-around;
+        }
+        ul {
+            list-style-type: square; /* Change 'square' to 'circle' or 'disc' for different bullet styles */
+            /* Additional styling, if needed */
+            margin-left: 20px; /* Adjust the margin to position the list */
+        }
+
+
+        #profile-image {
+            float: left;
+            margin-right: 20px;
+            border-radius: 50%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        #intro {
+            margin-top: 20px;
+        }
+
+        #skills {
+            margin-top: 20px;
+        }
+
+        #projects {
+            margin-top: 20px;
+        }
+
+        .project {
+            margin-bottom: 40px;
+        }
+
+        h1, h2, h3, p {
+            margin-bottom: 20px;
+        }
+
+        .project-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div id="profile-section">
+        <img id="profile-image" src="your_profile_image.jpg" alt="Profile Image" width="150" height="150">
+
+        <div id="intro">
+            <h1>Your Name</h1>
+            <p>
+                Welcome to my portfolio! I am a passionate Android developer with expertise in kotlin. 
+                I have a strong background in coding . Feel free to explore my work and get in touch!
+            </p>
+        </div>
+    </div>
+
+    <div id="skills">
+        <h2>Skills</h2>
+
+        <div class="skill-container">
+            <div class="skill">
+                <img src="Icon-1.png" alt="HTML Logo" width="107.81" height="100">
+                <div class="skill-name">Android</div>
+            </div>
+
+            <div class="skill">
+                <img src="ux-design.webp" alt="CSS Logo" width="120" height="70" >
+                <div class="skill-name">UI/Ux</div>
+            </div>
+
+            <div class="skill">
+                <img src="dsa-removebg-preview.png" alt="JavaScript Logo" width="150" height="120">
+                <div class="skill-name">DSA</div>
+            </div>
+
+            <div class="skill">
+                <img src="firebase-1.svg" alt="JavaScript Logo" width="100" height="100">
+                <div class="skill-name">Firebase</div>
+            </div>
+
+            <div class="skill">
+                <img src="api_1-removebg-preview.png" alt="JavaScript Logo" width="200" height="112.6">
+                <div class="skill-name">REST API</div>
+            </div>
+
+            <div class="skill">
+                <img src="Figma-logo.svg" alt="JavaScript Logo" width="90" height="90">
+                <div class="skill-name">Figma</div>
+            </div>
+
+            <div class="skill">
+                <img src="segue-blog-importance-wireframing-responsive-website.png" alt="React Logo" width="120" height="95">
+                <div class="skill-name">WireFraming</div>
+            </div>
+
+            
+
+        </div>
+    </div>
+
+    <div id="lan">
+        <h2>Langauge</h2>
+        <div class="lan-container">
+            <div class="skill">
+                <img src="kotlin-logo.webp" alt="HTML Logo" width="100" height="100">
+                <div class="skill-name">Kotlin</div>
+            </div>
+
+            <div class="skill">
+                <img src="java-logo1.webp" alt="CSS Logo" width="150" height="93">
+                <div class="skill-name">Java</div>
+            </div>
+
+            <div class="skill">
+                <img src="5848152fcef1014c0b5e4967.webp" alt="JavaScript Logo" width="100" height="99.61">
+                <div class="skill-name">Python</div>
+            </div>
+
+            <div class="skill">
+                <img src="c-logo.webp" alt="React Logo" width="100" height="112"> 
+                <div class="skill-name">C++</div>
+            </div>
+
+            <!-- Add more skills as needed -->
+
+        </div>
+
+        <!-- Add more projects as needed -->
+
+    </div>
+
+    <div id="projects">
+        <h2>Projects</h2>
+
+        <div class="project">
+            <h3>Project 1: Project Name</h3>
+            <p>
+                A simple but useful app where you can store your projects or what you want to do while making these app i have 
+learn about 
+            </p>
+            <ul>
+                <li> Firebase</li>
+                <li>Sign Up and Sign In</li>
+                <li>Auto login</li>
+                <li>Drawer Functionality</li>
+                <li>Uploading an image to storage</li>
+                <li>Hash map</li>
+            </ul>
+            
+            
+            <img class="project-image" src="home_page.png" alt="Project 1 Screenshot" width="250" height="500">
+            <img class="project-image" src="login.jpg" alt="Project 1 Screenshot" width="250" height="500">
+            <img class="project-image" src="sign_up.jpg" alt="Project 1 Screenshot" width="250" height="500">
+            <img class="project-image" src="main_page.jpg" alt="Project 1 Screenshot" width="250" height="500"> 
+            <img class="project-image" src="slide.png" alt="Project 1 Screenshot" width="250" height="500">
+            <img class="project-image" src="projemange.png" alt="Project 1 Screenshot" width="250" height="500">
+        </div>
+
+        <div class="project">
+            <h3>Project 2: Project Name</h3>
+            <p>
+                Another project description goes here. 
+                Technologies used include [list of technologies]. 
+            </p>
+            <img class="project-image" src="project2_screenshot.jpg" alt="Project 2 Screenshot">
+        </div>
+
+        <!-- Add more projects as needed -->
+
+    </div>
+</div>
+
+</body>
+</html>
